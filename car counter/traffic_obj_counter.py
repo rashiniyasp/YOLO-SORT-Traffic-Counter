@@ -22,7 +22,7 @@ Class1 = [
 ]
 
 # Video file path
-video_path = r"R:\cv_counter_project\videos\cars.mp4"
+video_path = r"R:\cv_counter_project\files\cars.mp4"
 cap = cv2.VideoCapture(video_path)
 
 # Check if the video opened successfully
@@ -50,7 +50,7 @@ print(f"Actual video frame dimensions: {frame_width}x{frame_height}")
 
 # Load the mask image. Assuming it's a binary mask (black/white) for ROI,
 # load it as grayscale to ensure it's 1-channel.
-mask_path = r"R:\cv_counter_project\videos\mask.png"
+mask_path = r"R:\cv_counter_project\files\mask.png"
 mask = cv2.imread(mask_path, cv2.IMREAD_GRAYSCALE) # Load as grayscale (1 channel)
 if mask is None:
     print(f"Error: Could not load mask image from {mask_path}")

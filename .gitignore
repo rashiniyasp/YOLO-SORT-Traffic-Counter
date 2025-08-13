@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+.Python/
+build/
+dist/
+*.egg-info/
+.env/
+venv/
+.venv/  # Your virtual environment folder
+pip-wheel-metadata/
+.tox/
+.coverage
+.pytest_cache/
+htmlcov/
+.nox/
+.ipynb_checkpoints/
+.mypy_cache/
+.vscode/ # VS Code specific settings (optional, but often good to ignore)
+
+# Large files - DO NOT commit directly
+# yolov8l.pt
+# videos/
+
+# OS generated files
+.DS_Store
+Thumbs.db
